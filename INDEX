@@ -1,0 +1,345 @@
+<!DOCTYPE html><html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brian “b33zy” Jutz | Creative Director Portfolio</title>
+  <meta name="description" content="Portfolio of Brian 'BZ' Jutz showcasing audio, visual, development, and branding expertise for metadata, music, and design professionals.">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Roboto', sans-serif; }
+    .fade-in { opacity: 0; transform: translateY(20px); transition: opacity 0.8s ease-out, transform 0.8s ease-out; }
+    .visible { opacity: 1; transform: translateY(0); }
+    .gradient-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 250px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(14, 14, 14, 0));
+      z-index: 30;
+    }
+  </style>
+
+</head>
+
+<body class="bg-[#0e0e0e] text-white scroll-smooth">
+
+  <!-- GRADIENT OVERLAY -->
+  <div class="gradient-overlay"></div>
+
+  <!-- HEADER -->
+  <header class="fixed w-full bg-[#111] bg-opacity-90 backdrop-blur-md z-40">
+    <div class="container mx-auto flex justify-center py-3 px-2">
+      <nav>
+        <ul class="flex text-gray-300 space-x-1">
+          <li><a href="#home" class="hover:text-cyan-300 transition">Home</a></li>
+          <li class="text-gray-500">◦</li>
+          <li><a href="#about" class="hover:text-cyan-300 transition">About</a></li>
+          <li class="text-gray-500">◦</li>
+          <li><a href="#skills" class="hover:text-cyan-300 transition">Skills</a></li>
+          <li class="text-gray-500">◦</li>
+          <li><a href="#audio" class="hover:text-cyan-300 transition">Audio</a></li>
+          <li class="text-gray-500">◦</li>
+          <li><a href="#visual" class="hover:text-cyan-300 transition">Visual</a></li>
+          <li class="text-gray-500">◦</li>
+          <li><a href="#pricing" class="hover:text-cyan-300 transition">Pricing</a></li>
+          <li class="text-gray-500">◦</li>
+          <li><a href="#resume" class="hover:text-cyan-300 transition">Resume</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="pt-10">
+    <!-- HERO -->
+    <section id="home" class="h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 to-black text-center">
+      <div class="max-w-2xl px-10">
+        <img src="https://raw.githubusercontent.com/TheBeatMobMedia/TheBeatMobMedia/main/Transparent%20Before%20After%20TBM%20Logo%20(1).png?raw=true" alt="TBM Logo" class="mx-auto w-48 mb-6 fade-in">
+        <h1 class="text-5xl md:text-7xl font-bold text-blue-400 mb-4 fade-in">Brian “BZ” Jutz</h1>
+        <p class="text-lg md:text-xl text-gray-300 mb-2 fade-in">Creative Director & Multimedia Specialist<br>
+        Audio Architect · Visual Storyteller · Metadata Alchemist</p>
+        <p class="text-sm text-gray-600 mb-6 fade-in">Precision-Driven | Metadata-Obsessed | Catalog-Safe</p>
+        <a href="#contact" class="inline-block bg-blue-400 text-black font-bold py-3 px-8 rounded-full shadow-lg transition hover:bg-cyan-300 fade-in">Let’s Collaborate</a>
+      </div>
+    </section>
+    <!-- rest of the page continues here -->
+  <!-- ANIMATIONS -->
+
+
+    <!-- ABOUT -->
+    <center>
+    <section id="about" class="py-20 container mx-auto px-6 fade-in">
+
+  <h2 class="text-4xl font-bold text-blue mb-4">About</h2>
+
+  <p class="text-gray-300 leading-relaxed">I’m Brian “BZ” Jutz—a multidisciplinary Creative Director with over 20 years of experience spanning the golden era of Myspace, SoundClick, SoundCloud, BeatStars, to modern DSPs like Spotify for Artists and YouTube Studio. I integrate deep technical expertise in metadata, distribution workflows (DistroKid, BeatStars), and creative execution in audio, visual, and web to deliver immersive brand experiences that drive engagement and growth.</p>
+
+</section><!-- SKILLS --><section id="skills" class="py-20 bg-gray-900">
+
+  <div class="container mx-auto px-6 fade-in">
+
+    <h2 class="text-4xl font-bold text-blue mb-8">Skills</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+
+      <div>
+
+        <h3 class="text-2xl font-semibold text-white mb-4">Creative & Production</h3>
+
+        <ul class="list-disc list-inside text-gray-300 space-y-2">
+
+          <li>Music Production & Composition</li>
+
+          <li>Audio Engineering: Recording, Mixing, Mastering</li>
+
+          <li>Sound Design & Vocal Editing</li>
+
+          <li>Beat Licensing & Metadata Management</li>
+
+          <li>Graphic Design: Covers, Flyers, Banners, Branding</li>
+
+          <li>Motion Graphics & Animated Visuals</li>
+
+          <li>Video Editing & Color Grading</li>
+
+          <li>UI/UX & Web Design</li>
+
+          <li>Social Media Content Strategy</li>
+
+          <li>Copywriting, Storyboarding, Scriptwriting</li>
+
+        </ul>
+
+      </div>
+
+      <div>
+
+        <h3 class="text-2xl font-semibold text-white mb-4">Technical Proficiency</h3>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-gray-300">
+
+          <div>
+
+            <strong>Audio:</strong>
+
+            <p>FL Studio, Pro Tools, Logic Pro X, Adobe Audition, iZotope RX/Ozone, Waves Suite, Serato Studio</p>
+
+          </div>
+
+          <div>
+
+            <strong>Visual:</strong>
+
+            <p>Photoshop, Illustrator, After Effects, Premiere Pro, DaVinci Resolve, Canva, GIMP</p>
+
+          </div>
+
+          <div>
+
+            <strong>Web & Dev:</strong>
+
+            <p>HTML5, CSS3, JavaScript, Tailwind CSS, React (basic), Python (PC & Android), VS Code, GitHub</p>
+
+          </div>
+
+          <div>
+
+            <strong>Platforms:</strong>
+
+            <p>Myspace, SoundClick, SoundCloud, BeatStars, DistroKid, Spotify for Artists, YouTube Studio, Meta Business Suite</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section><!-- AUDIO PORTFOLIO --><section id="audio" class="py-20 container mx-auto px-6 fade-in">
+
+  <h2 class="text-4xl font-bold text-white mb-6">Audio Portfolio</h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+
+    <div>
+
+      <h3 class="text-xl font-semibold text-white mb-2">Love Me</h3>
+
+      <h4 class="text-1 font-italic text-white mb-1"> Produced beat, Recorded/Mixed/Mastered vocals</h4>
+      <audio controls class="w-full rounded-md">
+
+        <source src="https://open.spotify.com/track/1gbyyRbTA5uv8GHzI7u1Xl?si=BetKn9RDSNGrewzbx_Zixw&context=spotify%3Aalbum%3A4nl9g2jDoWX2hZ8dJnjg0O" type="audio/mp3">
+
+        Your browser does not support the audio element.
+
+      </audio>
+
+    </div>
+
+    <div>
+
+      <h3 class="text-xl font-semibold text-white mb-2">Dreamin</h3>
+      
+      <h4 class="text-1 font-italic text-white mb-1"> Recorded/Mixed/Mastered vocals</h4>
+      
+      <audio controls class="w-full rounded"-md>
+
+        <source src="https://open.spotify.com/track/2LatqWDBkWMwxthGd6W7Mw?si=hf_Al0ZARYKMfCisdwIcYw" type="audio/mp3">
+
+        Your browser does not support the audio element.
+
+      </audio>
+
+    </div>
+
+  </div>
+
+  <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-12">
+
+    <div>
+
+      <h3 class="text-xl font-semibold text-white mb-2">LAST NIGHT (Live Performance Reel)</h3>
+
+      <video controls class="w-full rounded-md">
+
+        <source src="assets/video/LAST_NIGHT.mp4" type="video/mp4">
+
+        Your browser does not support the video tag.
+
+      </video>
+
+    </div>
+
+    <div>
+
+      <h3 class="text-xl font-semibold text-white mb-2">Hip Hop Cares Intro</h3>
+
+      <video controls class="w-full rounded-md">
+
+        <source src="assets/video/Hip_Hop_Cares_Intro.wmv" type="video/x-ms-wmv">
+
+        Your browser does not support the video tag.
+
+      </video>
+
+    </div>
+
+  </div>
+
+</section><!-- VISUAL PORTFOLIO --><section id="visual" class="py-20 bg-gray-900 container mx-auto px-6 fade-in">
+
+  <h2 class="text-4xl font-bold text-white mb-8">Visual Portfolio</h2>
+
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+
+    <img src="assets/img/R.Prophet(Nappy Roots) Jesse James Single Cover.png" alt="R. Prophet Jesse James Cover" class="rounded-lg shadow-lg hover:scale-105 transition">
+
+    <img src="assets/img/Keith Darnell Stunt (Single Graphic).png" alt="Keith Darnell Stunt" class="rounded-lg shadow-lg hover:scale-105 transition">
+
+    <img src="assets/img/Zues Godly Flow.png" alt="Zues Godly Flow" class="rounded-lg shadow-lg hover:scale-105 transition">
+
+    <img src="assets/img/Ceasa Matic For The Money.png" alt="Ceasa Matic For The Money" class="rounded-lg shadow-lg hover:scale-105 transition">
+
+  </div>
+
+</section>
+   
+
+
+<!-- PRICING --><section id="#pricing" class="py-20 bg-gray-900 container mx-auto px-6 fade-in">
+
+  <h2 class="text-4xl font-bold text-white mb-8">Pricing</h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+    <div class="bg-gray-800 p-6 rounded-xl text-center hover:bg-gray-700 transition">
+
+      <h3 class="text-2xl font-bold mb-4">Audio Services</h3>
+
+      <p class="text-gray-300 mb-2">Custom Beats: $300+</p>
+
+      <p class="text-gray-300 mb-2">Mixing: $200/song</p>
+
+      <p class="text-gray-300 mb-2">Mastering: $100/song</p>
+
+      <p class="text-gray-300">Full Production: $500+</p>
+
+    </div>
+
+    <div class="bg-gray-800 p-6 rounded-xl text-center hover:bg-gray-700 transition">
+
+      <h3 class="text-2xl font-bold mb-4">Visual Design</h3>
+
+      <p class="text-gray-300 mb-2">Single Cover: $150</p>
+
+      <p class="text-gray-300 mb-2">Album Art: $350</p>
+
+      <p class="text-gray-300 mb-2">Flyer/Promo: $150</p>
+
+      <p class="text-gray-300">Logo Design: $400+</p>
+
+    </div>
+
+    <div class="bg-gray-800 p-6 rounded-xl text-center hover:bg-gray-700 transition">
+
+      <h3 class="text-2xl font-bold mb-4">Web & Branding</h3>
+
+      <p class="text-gray-300 mb-2">Landing Page: $800+</p>
+
+      <p class="text-gray-300 mb-2">Full Site: $1500+</p>
+
+      <p class="text-gray-300 mb-2">EPK Kit: $400</p>
+
+      <p class="text-gray-300">Retainers & Bulk: Custom</p>
+
+    </div>
+
+  </div>
+
+</section><!-- RESUME --><section id="resume" class="py-20 container mx-auto px-6 fade-in">
+
+  <h2 class="text-4xl font-bold text-white mb-4">Resume</h2>
+
+  <a href="assets/docs/resume.pdf" class="text-cyan-400 underline hover:text-cyan-300 transition">Download Full Resume (PDF)</a>
+
+</section><!-- CONTACT --><section id="contact" class="py-20 bg-gray-900 container mx-auto px-6 fade-in">
+
+  <h2 class="text-4xl font-bold text-white mb-6">Contact Me</h2>
+
+  <form class="max-w-md mx-auto grid grid-cols-1 gap-6">
+
+    <input type="text" placeholder="Name" class="p-4 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-400" required>
+
+    <input type="email" placeholder="Email" class="p-4 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-400" required>
+
+    <textarea rows="5" placeholder="Your Message" class="p-4 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-400"></textarea>
+
+    <button type="submit" class="bg-cyan-400 text-black font-bold py-3 rounded-full hover:bg-cyan-300 transition">Send Message</button>
+
+  </form>
+     
+</section>  </main>  <!-- ANIMATIONS -->  <script>
+
+    const observer = new IntersectionObserver(entries => {
+
+      entries.forEach(entry => { if(entry.isIntersecting) entry.target.classList.add('visible'); });
+
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+  </script></body>
+
+
+  </main>
+</html>
+
+
+
+
